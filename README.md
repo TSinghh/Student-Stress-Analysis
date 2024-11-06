@@ -1,7 +1,7 @@
 # Student-Stress-Analysis
 A systemic approach to uncover, analyze, and model the most crucial stress factors among students.
 
-# Key Objectives
+Key Objectives
 
 1. **Identify Core Stress Factors**: Uncover the primary contributors to student stress, such as academic pressures, social dynamics, and personal well-being factors.
    
