@@ -56,7 +56,14 @@ sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
 plt.title('Correlation Heatmap of Important Factors')
 plt.show()
 
-MODELLING:
+#MODELLING:
+
+X = data_selected.drop('stress_level', axis=1)  
+y = data_selected['stress_level']  
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 
 logistic_model = LogisticRegression()
